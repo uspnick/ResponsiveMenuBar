@@ -221,4 +221,20 @@ $(document).ready(function ()
 
 });
 
+/***
 
+The hasScroll function determines whether an element has overflow and therefore requires scrolling.
+
+The mirrorCopy function creates a copy of an element, hides the original element, and returns the copy.
+
+The reactiveOrig function removes a copy of an element created by mirrorCopy and shows the original element.
+
+The updateHiddenMenuLinkContainer function updates the hidden menu links in the menu container based on the available space in the container.
+
+The idleidleCallbackFunction function schedules a function to run when the browser is idle.
+
+The code also defines event handlers for click events on menu links, resize events, and messages from the iframe element.
+
+Overall, the code appears to be handling the menu and iframe element interactions and ensuring that the website's layout is responsive.
+
+***/
