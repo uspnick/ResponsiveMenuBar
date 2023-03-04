@@ -3,6 +3,8 @@
 This package was created with the active participation of ChatGPT. I provided the specs and after generating the HTML, CSS, JS by ChatGPT, I was fixing the issues and sending back an updated version to ChatGPT to get comments. This cycle was then repeated until it was done. At the final stage, ChatGPT suggested how to rename all objects in the code, including styles, variables, functions, and then ChatGPT created the description below. 
 
 
+![The menu.html in the browser](https://github.com/uspnick/ResponsiveMenuBar/blob/main/menu.html.png?raw=true)
+
 ## Getting Started
 
 
