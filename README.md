@@ -44,3 +44,14 @@ To customize the JS functions, edit the JS code in the corresponding .js files. 
 Overall, this package provides a flexible and customizable template for a single page application with a menu bar and an iframe to display content. It can be easily customized to fit different use cases and requirements.
 
 
+Customization
+The ResponsiveMenuBar package is highly customizable. You can change the colors, fonts, and other styles in the CSS code to match your website's design. You can also add or remove links from the menu bar by editing the HTML code.
+
+If you want to modify the JavaScript code, make sure to have a good understanding of JavaScript before doing so. The code is heavily commented, but it can be complex for beginners.
+
+Contributing
+If you find any issues or have suggestions for improvement, feel free to create an issue or pull request on GitHub. Contributions are always welcome!
+
+License
+The ResponsiveMenuBar package is released under the MIT License. Feel free to use it in your projects, commercial or non-commercial. Attribution is not required, but appreciated.
+
