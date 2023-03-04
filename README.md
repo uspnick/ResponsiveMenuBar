@@ -53,9 +53,7 @@ To add new menu items, follow these steps:
 * Set the text content of the new a tag to the label to be displayed for the new menu item.
 * Optionally, customize the CSS styles of the new menu item by editing the CSS code inside the <style> tag in the head of the HTML file.
 * To remove menu items, simply delete the corresponding a tag from the div tag with the class attribute set to menuContainer.
-
 * To customize the styles, edit the CSS code inside the <style> tag in the head of the HTML file. You can change the font family, font size, background color, and other visual aspects of the menu bar and the iframe.
-
 * To customize the JS functions, edit the JS code in the corresponding .js files. You can add new functionality, modify existing functionality, or remove functionality as needed.
 
 Overall, this package provides a flexible and customizable template for a single page application with a menu bar and an iframe to display content. It can be easily customized to fit different use cases and requirements.
