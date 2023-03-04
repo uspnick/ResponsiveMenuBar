@@ -4,6 +4,17 @@ This package was created with the active participation of ChatGPT. I provided th
 
 Save all files to your folder and open menu.html to view how it works.
 
+Getting Started
+To use the ResponsiveMenuBar package, simply download the files and add them to your project. The files include the following:
+
+menu.html: The HTML code for the menu bar and popup menu.
+menu.css: The CSS code for the menu bar and popup menu.
+menu.js: The JavaScript code for the menu bar and popup menu.
+jquery-3.5.1.min.js: The jQuery library required for the JavaScript code to work.
+01.html ... 08.html  - empty files with titles to test menu.html
+common.js and common.css  - are used in 01.html ... 08.html 
+
+
 Package Description:
 
 This package is a responsive and customizable template for a single page application (SPA) that features a menu bar and an iframe to display content. The menu bar is responsive, and if there are too many menu items to fit on the screen, the excess items are hidden and displayed in a dropdown menu accessed by clicking on the "hamburger" icon. The menu items are customizable, and each item can be linked to a separate page or resource.
