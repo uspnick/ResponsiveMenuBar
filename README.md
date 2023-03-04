@@ -1,6 +1,6 @@
 # ResponsiveMenuBar
 
-This package was created with the active participation of ChatGPT. I provided the specs and after generating the HTML, CSS, JS by ChatGPT, I was fixing the issues and sending back an updated version to ChatGPT to get comments. This cycle was then repeated until it was done. At the final stage, ChatGPT suggested how to rename all objects in the code, including styles, variables, functions, and then ChatGPT created the description below.
+This package was created with the active participation of ChatGPT. I provided the specs and after generating the HTML, CSS, JS by ChatGPT, I was fixing the issues and sending back an updated version to ChatGPT to get comments. This cycle was then repeated until it was done. At the final stage, ChatGPT suggested how to rename all objects in the code, including styles, variables, functions, and then ChatGPT created the description below. 
 
 Package Description:
 
@@ -40,3 +40,5 @@ To customize the styles, edit the CSS code inside the <style> tag in the head of
 To customize the JS functions, edit the JS code in the corresponding .js files. You can add new functionality, modify existing functionality, or remove functionality as needed.
 
 Overall, this package provides a flexible and customizable template for a single page application with a menu bar and an iframe to display content. It can be easily customized to fit different use cases and requirements.
+
+
