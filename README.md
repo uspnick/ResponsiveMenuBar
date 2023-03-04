@@ -18,7 +18,7 @@ jquery-3.5.1.min.js: The jQuery library required for the JavaScript code to work
 
 01.html ... 08.html  - empty files with titles to test menu.html
 
-common.js - is used in 01.html ... 08.html to post Message to the parent about a click to hide a menu (if it is open).
+common.js - is used in 01.html ... 08.html to post Message to the parent to tarnslate a mouse click inside iframe.
 
 common.css - is used in 01.html ... 08.html to set fonts
 
