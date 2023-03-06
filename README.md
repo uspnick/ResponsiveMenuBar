@@ -7,7 +7,6 @@ This package was created with the active participation of ChatGPT. I provided th
 
 ## Getting Started
 
-
 To use the ResponsiveMenuBar package, simply download the files and add them to your project. The files include the following:
 
 * menu.html: The HTML code for the menu bar and popup menu.
