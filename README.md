@@ -15,7 +15,7 @@ The demo is available at https://jsfiddle.net/NickU/v52gqnky/20/
 * menu.css: The CSS code for the menu bar and popup menu.
 * menu.js: The JavaScript code for the menu bar and popup menu.
 * jquery-3.5.1.min.js: The jQuery library required for the JavaScript code to work.
-* 01.html ... 08.html  - empty files with titles to test menu.html
+* 01.html ... 08.html  - simple html files with titles to test menu.html
 * common.js - is used in 01.html ... 08.html to post Message to the parent to translate a mouse click inside iframe.
 * common.css - is used in 01.html ... 08.html to set fonts
 
@@ -42,23 +42,27 @@ To use this package, follow these steps:
 * Download the package files from the source.
 * Customize the menu items by editing the HTML code inside the div tag with the class attribute set to menuContainer.
 * Link each menu item to the corresponding page or resource by editing the urlto attribute of the corresponding a tag.
-* Customize the page to be displayed in the iframe by editing the src attribute of the iframe tag with the id attribute set to id_iframeElement.
-* Optionally, customize the CSS styles by editing the CSS code inside the <style> tag in the head of the HTML file.
-* Optionally, customize the JS functions by editing the JS code in the corresponding .js files.
-* Host the HTML file and the associated files on a web server or locally on a computer, and access the HTML file in a web browser.
+```
+  <body>
+    <div class="rowContainer">
+        <div id="header">
+            <div class="menuContainer opacity0">
+               <div class="menuLink" urlto="YourPage1.html">Your Menu 1</div>
+               <div class="menuLink" urlto="YourPage1.html">Your Menu 2</div>
+               ...
+            </div>
+            <div class="iconExileMenu displayNone">
+            </div>
+            <div class="exileMenuContainer displayNone">
+            </div>
+        </div>
+        <iframe class="greyOut" frameborder="0" style="border: 0px; width:100%;" name="id_iframeElement" id="id_iframeElement" scrolling="auto" src="wait.html"> 
+        </iframe>
+    </div>
+  </body>
+```
 
-To add new menu items, follow these steps:
 
-* Add a new a tag inside the div tag with the class attribute set to menuContainer.
-* Set the href attribute of the new a tag to # to prevent the browser from navigating to a new page.
-* Set the urlto attribute of the new a tag to the URL or resource to be linked to the new menu item.* 
-* Set the text content of the new a tag to the label to be displayed for the new menu item.
-* Optionally, customize the CSS styles of the new menu item by editing the CSS code inside the <style> tag in the head of the HTML file.
-* To remove menu items, simply delete the corresponding a tag from the div tag with the class attribute set to menuContainer.
-* To customize the styles, edit the CSS code inside the <style> tag in the head of the HTML file. You can change the font family, font size, background color, and other visual aspects of the menu bar and the iframe.
-* To customize the JS functions, edit the JS code in the corresponding .js files. You can add new functionality, modify existing functionality, or remove functionality as needed.
-
-Overall, this package provides a flexible and customizable template for a single page application with a menu bar and an iframe to display content. It can be easily customized to fit different use cases and requirements.
 
 
 ## Customization.
