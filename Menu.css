@@ -224,28 +224,10 @@ iframe
 }
 
 /***
-This is a CSS file containing styles for a menu and iframe elements. Here's a breakdown of the CSS rules:
-
-The html and body elements are set to have 100% width and height, no margins or padding, and use the Roboto font with antialiasing enabled.
-The .menuContainer element is a flex container with space between items, a white background, and some padding. It uses the Google Sans font, 
-has a width of 100% minus 85 pixels, and a margin of 0. The font size is set to 0.875 rem.
-The .menuLink elements inside .menuContainer have no text decoration, a gray color, and some margins and padding. When they are active or hovered, 
-their font weight and color change.
-An animation is defined with @keyframes to make a line grow when the .menuLink is active.
-The .iconExileMenu element is a small icon with a background image and a circle border. When hovered, it changes its background color.
-The .exileMenuContainer element is a container for a dropdown menu that appears when the user clicks on the .iconExileMenu. It has a white background, 
-a border, some padding, and a box shadow. The font family is set to Roboto, Arial, or sans-serif, and the font size and weight are set.
-When a menu item is hovered, it changes its background color.
-The .rowContainer element is a container for a header and an iframe. It has 100% width and a height of 100% minus 25 pixels. 
-Its children are displayed as a column, and it has hidden overflow.
-The #header element has no border, hidden overflow, and a font size of 1rem. It also has a bottom border.
-The #id_iframeElement element has a flex-grow of 1, no border, 100% width, and no margin or padding. It also has hidden overflow.
-The iframe element has no border, 100% width and height, and scrollable overflow. It also has a transition for opacity.
-The .opacity0 class sets the opacity of an element to 0.
-The .hiddenMenuLinkContainer element is a container for hidden menu links. It has a white background, hidden overflow, and a height of 1.75 rem.
-Its children are displayed as blocks with some padding and color. When a menu item is active or hovered, it changes its color.
-The .rowContainer .displayNone class hides an element.
-The .greyOut class applies a grayscale filter and an opacity of 0.75 to an element.
-Overall, these styles are used to create a menu with dropdowns and a header with an iframe element below it. 
-The menu and dropdowns have a white background and Google Sans font. The .greyOut class is applied to the iframe element to give it a grayed-out appearance.
+The .menuContainer element is a flex container.
+The .menuLink elements inside .menuContainer.
+The .iconExileMenu element is a small icon.
+The .exileMenuContainer element is a container for a dropdown menu.
+The .rowContainer element is a container for a header and an iframe.
+The .hiddenMenuLinkContainer element is a container for hidden menu links.
 ***/
