@@ -15,9 +15,9 @@ The demo is available at https://jsfiddle.net/NickU/v52gqnky/20/. Resize the men
 * menu.css: The CSS code for the menu bar and popup menu.
 * menu.js: The JavaScript code for the menu bar and popup menu.
 * jquery-3.5.1.min.js: The jQuery library required for the JavaScript code to work.
-* 01.html ... 08.html  - simple html files with titles to test menu.html
-* common.js - is used in 01.html ... 08.html to post Message to the parent to translate a mouse click inside iframe.
-* common.css - is used in 01.html ... 08.html to set fonts
+* 01 ... 08.html  - simple html files with titles to test menu.html
+* common.js - for 01 ... 08.html to post 'iframeclick' message to the parent to translate a mouse click inside iframe.
+* common.css -for 01 ... 08.html to set fonts
 
 
 
@@ -33,7 +33,17 @@ The package is composed of HTML, CSS, and JS files, and it includes the followin
 4. Grey out effect on iframe during page loading
 5. Hidden menu item list inside the dropdown menu
 6. Event listener for clicks on the iframe
-7.Message passing between the iframe and parent window to close the dropdown menu
+7. Message 'iframeclick' passing from the iframe to the parent window to close the dropdown menu, the code is included in common.js (for 01 ... 08.html).
+```
+        window.addEventListener('click', function (e)
+        {
+            // Send a message to the parent window with the details of the click event
+            window.parent.postMessage({
+                type: 'iframeclick'
+            }, '*');
+        });
+
+```
 
 ## User Guide:
 
