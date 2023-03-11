@@ -48,7 +48,7 @@ To use this package, follow these steps:
         <div id="header">
             <div class="menuContainer opacity0">
                <div class="menuLink" urlto="YourPage1.html">Your Menu 1</div>
-               <div class="menuLink" urlto="YourPage1.html">Your Menu 2</div>
+               <div class="menuLink" urlto="YourPage2.html">Your Menu 2</div>
                ...
             </div>
             <div class="iconExileMenu displayNone">
