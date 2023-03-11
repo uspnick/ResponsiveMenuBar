@@ -138,14 +138,16 @@ $(document).ready(function ()
     {
         $(this).removeClass('greyOut');
 
+        /*** This code can be used when the iframe and the content are on the same domain.
         var iframeElement = document.getElementById('id_iframeElement');
         iframeElement.contentDocument.body.addEventListener('click', function (e)
         {
             // Send a message to the parent window the iframeElementclick event
             window.parent.postMessage({
-                type: 'iframeElementclick'
+                type: 'iframeclick'
             }, '*');
         });
+        ***/
     });
 
 
@@ -174,7 +176,7 @@ $(document).ready(function ()
         }
 
         // Check the message type
-        if (e.data.type === 'iframeElementclick')
+        if (e.data.type === 'iframeclick')
         {
             $('.exileMenuContainer:visible').addClass('displayNone');
         }
