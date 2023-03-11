@@ -9,9 +9,7 @@ This package was created with the active participation of ChatGPT. I provided th
 
 To use the ResponsiveMenuBar package, simply download the files and add them to your project. The files include the following:
 
-The demo is available at https://jsfiddle.net/NickU/v52gqnky/20/
-
-Resize the menu bar to see it in action.
+The demo is available at https://jsfiddle.net/NickU/v52gqnky/20/. Resize the menu bar to see it in action.
 
 * menu.html: The HTML code for the menu bar and popup menu.
 * menu.css: The CSS code for the menu bar and popup menu.
