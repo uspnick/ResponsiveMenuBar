@@ -11,10 +11,36 @@ To use the ResponsiveMenuBar package, simply download the files and add them to 
 
 The demo is available at https://jsfiddle.net/NickU/v52gqnky/20/. Resize the menu bar to see it in action.
 
+* jquery.ResponsiveMenuBar.js: The jquery plugin for the menu bar and popup menu.
 * menu.html: The HTML code for the menu bar and popup menu.
+```
+  <body>
+    <div class="rowContainer">
+        <div id="header">
+            <div class="menuContainer opacity0">
+               <div class="menuLink" urlto="YourPage1.html">Your Menu 1</div>
+               <div class="menuLink" urlto="YourPage2.html">Your Menu 2</div>
+               ...
+            </div>
+            <div class="iconExileMenu displayNone">
+            </div>
+            <div class="exileMenuContainer displayNone">
+            </div>
+        </div>
+        <iframe class="greyOut" frameborder="0" style="border: 0px; width:100%;" name="id_iframeElement" id="id_iframeElement" scrolling="auto" src="wait.html"> 
+        </iframe>
+    </div>
+  </body>
+```
 * menu.css: The CSS code for the menu bar and popup menu.
-* menu.js: The JavaScript code for the menu bar and popup menu.
-* jquery-3.5.1.min.js: The jQuery library required for the JavaScript code to work.
+* menu.js: The JavaScript code to init the ResponsiveMenuBar plugin
+```
+$(document).ready(function ()
+{
+    $(document).ResponsiveMenuBar({});
+});
+```
+
 * 01 ... 08.html  - simple html files with titles to test menu.html
 * common.js - for 01 ... 08.html to post 'iframeclick' message to the parent to translate a mouse click inside iframe.
 * common.css -for 01 ... 08.html to set fonts
@@ -52,34 +78,10 @@ To use this package, follow these steps:
 * Download the package files from the source.
 * Customize the menu items by editing the HTML code inside the div tag with the class attribute set to menuContainer.
 * Link each menu item to the corresponding page or resource by editing the urlto attribute of the corresponding a tag.
-```
-  <body>
-    <div class="rowContainer">
-        <div id="header">
-            <div class="menuContainer opacity0">
-               <div class="menuLink" urlto="YourPage1.html">Your Menu 1</div>
-               <div class="menuLink" urlto="YourPage2.html">Your Menu 2</div>
-               ...
-            </div>
-            <div class="iconExileMenu displayNone">
-            </div>
-            <div class="exileMenuContainer displayNone">
-            </div>
-        </div>
-        <iframe class="greyOut" frameborder="0" style="border: 0px; width:100%;" name="id_iframeElement" id="id_iframeElement" scrolling="auto" src="wait.html"> 
-        </iframe>
-    </div>
-  </body>
-```
 
 
 
 
-## Customization.
-
-The ResponsiveMenuBar package is highly customizable. You can change the colors, fonts, and other styles in the CSS code to match your website's design. You can also add or remove links from the menu bar by editing the HTML code.
-
-If you want to modify the JavaScript code, make sure to have a good understanding of JavaScript before doing so. The code is heavily commented, but it can be complex for beginners.
 
 
 ## Contributing.
