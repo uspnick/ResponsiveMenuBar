@@ -35,11 +35,12 @@
 
         idleCallbackFunction: function (idleCallbackFunction)
         {
+            var self = this;
             if (typeof idleCallbackFunction === 'function')
                 if ('requestidleCallbackFunction' in window)
                     window.requestidleCallbackFunction(idleCallbackFunction, { timeout: 10 });
                 else
-                    setTimeout(idleCallbackFunction, 10, idleCallbackFunction);
+                    setTimeout(idleCallbackFunction, 10);
         },
 
         updateHiddenMenuLinkContainer: function ()
@@ -142,16 +143,16 @@
             {
                 $(this).removeClass('greyOut');
 
-               /*  for the sameorigin only pages
-                var iframeElement = document.getElementById('id_iframeElement');
-                iframeElement.contentDocument.body.addEventListener('click', function (e)
-                {
-                    // Send a message to the parent window the iframeElementclick event
-                    window.parent.postMessage({
-                        type: 'iframeElementclick'
-                    }, '*');
-                });
-                */
+                /*  for the sameorigin only pages
+                 var iframeElement = document.getElementById('id_iframeElement');
+                 iframeElement.contentDocument.body.addEventListener('click', function (e)
+                 {
+                     // Send a message to the parent window the iframeElementclick event
+                     window.parent.postMessage({
+                         type: 'iframeElementclick'
+                     }, '*');
+                 });
+                 */
             });
 
 
@@ -180,7 +181,7 @@
                 }
 
                 // Check the message type
-                if (e.data.type === 'iframeElementclick')
+                if (e.data.type === 'iframeclick')
                 {
                     $('.exileMenuContainer:visible').addClass('displayNone');
                 }
