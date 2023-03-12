@@ -142,6 +142,7 @@
             {
                 $(this).removeClass('greyOut');
 
+               /*  for the sameorigin only pages
                 var iframeElement = document.getElementById('id_iframeElement');
                 iframeElement.contentDocument.body.addEventListener('click', function (e)
                 {
@@ -150,6 +151,7 @@
                         type: 'iframeElementclick'
                     }, '*');
                 });
+                */
             });
 
 
