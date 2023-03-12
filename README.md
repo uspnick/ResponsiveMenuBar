@@ -1,6 +1,7 @@
 # ResponsiveMenuBar
 
-This package was created with the active participation of ChatGPT. I provided the specs and after generating the HTML, CSS, JS by ChatGPT, I was fixing the issues and sending back an updated version to ChatGPT to get comments. This cycle was then repeated until it was done. At the final stage, ChatGPT suggested how to rename all objects in the code, including styles, variables, functions, and then ChatGPT created the description below. 
+The Responsive Menu Bar jQuery plugin works like a menu bar on news.google.com. The menu bar is dynamic, and if there are too many menu items to fit on the screen, additional items are hidden and displayed in a drop-down menu accessed by clicking on the "three vertical dots" icon.
+This package was created with a participation of ChatGPT, ChatGPT suggested how to rename all objects in the code, including styles, variables, functions. 
 
 
 ![The menu.html in the browser](https://github.com/uspnick/ResponsiveMenuBar/blob/main/menu.html.png?raw=true)
