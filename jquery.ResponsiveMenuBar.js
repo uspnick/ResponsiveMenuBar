@@ -228,7 +228,8 @@
         },
         outDebug: function (str)
         {
-            if (typeof console !== 'undefined' && self.opts.showDebugInfo)
+           var self = this;
+           if (typeof console !== 'undefined' && self.opts.showDebugInfo)
                 console.log(str);
         }
     };
